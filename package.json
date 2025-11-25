@@ -1,0 +1,46 @@
+{
+  "name": "techtopia-homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec ts-node src/Backend/App.ts",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shay-te/techtopia-homework.git"
+  },
+  "author": "Shay Tessler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shay-te/techtopia-homework/issues"
+  },
+  "homepage": "https://github.com/shay-te/techtopia-homework#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "create-vite": "^6.5.0",
+    "express": "^5.1.0",
+    "fast-xml-parser": "^5.3.2",
+    "mongodb": "^6.21.0",
+    "mongodb-memory-server": "^10.3.0",
+    "multer": "^2.0.2",
+    "pg": "^8.16.3",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "typeorm": "^0.3.27",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/jest": "^30.0.0",
+    "@types/mongodb": "^4.0.7",
+    "@types/multer": "^2.0.0",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "sqlite3": "^5.1.7",
+    "ts-jest": "^29.4.5"
+  }
+}
