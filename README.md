@@ -17,3 +17,5 @@
 
 
 ## Run the backend tests
+To run the tests type
+`npm run test`
